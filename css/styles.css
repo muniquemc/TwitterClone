@@ -1,6 +1,17 @@
 .container {
+    padding: 741x779;
+    background-color: rgb(255, 255, 255);
     display: grid;
-    grid-template-columns: 275px auto 350px;
+    grid-template-columns: auto auto auto;
     border: solid 1px black;
     margin: 0;
 }
+
+.container__left-sidebar {
+    position: fixed;
+}
+
+.container__right-sidebar {
+    position: fixed;
+}
+
